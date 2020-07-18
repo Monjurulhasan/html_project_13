@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Sahitya', serif;
+}
+
+.clear{
+    overflow: hidden;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.padding{
+    padding: 75px 0px;
+}
+
+.card, .btn, input, textarea{
+    border-radius: 0px !important;
+}
+
+.bg{
+    background-color: #f6f6f6 !important;
+}
+
+/********************************************* Start Home page *******************************************/
+
+/*** Start header ***/
+
+.navbar-brand{
+    font-size: 35px !important;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: #000000;
+}
+
+/*** End header ***/
+
+/*** Start banner ***/
+
+#banner{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.carousel-caption{
+    top: 30%;
+}
+
+/*** End banner ***/
+
+/*** Start tax-calculate ***/
+
+#tax-caculate{
+    background: url(../images/calculate_bg.jpg) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.calculate-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*** End tax-calculate ***/
+
+/*** Start team ***/
+
+.team-img{
+    position: relative;
+}
+
+.team-text{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+/*** End team ***/
+
+/*** Start request ***/
+
+#request{
+    background: url(../images/callback.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*** End request ***/
+
+/*** Start footer ***/
+
+.footer-bottom{
+    border-top: 1px solid #000000;
+}
+
+/*** End footer ***/
+
+
+/********************************************* End Home page *********************************************/
+
+/******************************************** Start About & contact page ********************************************/
+
+#about-banner{
+    background-image: url(../images/slider_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#map .jumbotron{
+    border-radius: 0px;
+}
+
+#map iframe{
+    width: 100%;
+    height: 450px;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+/******************************************** End About & contact page ********************************************/
